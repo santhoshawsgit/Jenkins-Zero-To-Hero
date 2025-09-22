@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Git Clone') {
             steps {
-                git branch: 'main', url: 'https://github.com/iam-veeramalla/Jenkins-Zero-To-Hero.git'
+                git branch: 'main', url: 'https://github.com/santhoshawsgit/Jenkins-Zero-To-Hero.git'
             }
         }
 
